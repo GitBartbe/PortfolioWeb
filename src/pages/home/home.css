@@ -1,0 +1,11 @@
+.content-container {
+  background-color: var(--cart-background);
+  margin-top: -140px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.content-container h1 {
+  color: var(--primary);
+  margin-bottom: 40px;
+}

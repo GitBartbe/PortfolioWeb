@@ -1,0 +1,18 @@
+.desktop-app {
+    overflow: hidden;
+    z-index: 1;
+    display: flex;
+    width: 600px;
+    height: 600px;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgb(91, 74, 224);
+    background: linear-gradient(
+      deg,
+      rgba(91, 74, 224, 1) 0%,
+      rgba(193, 22, 248, 1) 100%
+    );
+    -webkit-box-shadow: -8px 9px 19px -9px rgba(0, 0, 0, 1);
+    -moz-box-shadow: -8px 9px 19px -9px rgba(0, 0, 0, 1);
+    box-shadow: -8px 9px 19px -9px rgba(0, 0, 0, 1);
+  }

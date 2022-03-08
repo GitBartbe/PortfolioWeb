@@ -1,0 +1,32 @@
+.email-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+ 
+  margin: auto;
+  overflow: hidden;
+}
+
+.form-input {
+  border: 0;
+  border-bottom: 1px solid #03becb2c  ;
+  outline: 0;
+  color:#989efb;
+  padding: 7px 0;
+  background: transparent;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.email-form label {
+  color:#989efb ;
+   
+}
+
+
+ 
+
+  
+
+
+

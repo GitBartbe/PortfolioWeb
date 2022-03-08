@@ -1,0 +1,11 @@
+.about {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.about-me-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
