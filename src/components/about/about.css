@@ -1,11 +1,12 @@
 .about {
   position: relative;
-  width: 90%;
+  z-index: 9;
+  width: 70%;
   margin: auto;
 }
 
 .about-me-content {
   display: flex;
-  justify-content: space-evenly;
+  
 }
 

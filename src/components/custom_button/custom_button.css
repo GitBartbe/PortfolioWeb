@@ -3,6 +3,7 @@ button.primary {
 	background-color: #03BFCB;
 	border: 1px solid #03BFCB;
 	border-radius: 3px;
+	height:40px;
 	color: #231E39;
 	font-family: Montserrat, sans-serif;
 	font-weight: 500;
@@ -17,6 +18,8 @@ button.primary:hover {
 
 button.primary.ghost {
 	background-color: transparent;
+	height:40px;
+	width: 120px;
     z-index: 99;
 	color: #02899C;
     margin-left: 10px;

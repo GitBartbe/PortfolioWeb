@@ -1,0 +1,11 @@
+.projects {
+  display: flex;
+  margin: auto;
+ 
+  width: 70%;
+}
+.projects-content {
+  display: flex;
+  flex-direction: column;
+ 
+}

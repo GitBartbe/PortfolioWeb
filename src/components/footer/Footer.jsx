@@ -13,17 +13,17 @@ function Footer() {
             <h2>You are welcome to meet me on:</h2>
         <div className="logo-container">
           <BsGithub className="footer-logo" size={40} />
-          <a> GitHub </a>
+          <a href="./" > GitHub </a>
         </div>
 
         <div className="logo-container">
           <BsLinkedin className="footer-logo" size={40} />
-          <a> LinkedIn </a>
+          <a href="./"> LinkedIn </a>
         </div>
 
         <div className="logo-container">
           <BsFacebook className="footer-logo" size={40} />
-          <a> Facebook </a>
+          <a href="./" > Facebook </a>
         </div>
             </div> 
             

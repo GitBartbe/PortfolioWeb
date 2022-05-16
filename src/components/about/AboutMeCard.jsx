@@ -4,6 +4,7 @@ import myPhoto from '../../img/my-photo.png'
 import aboutText from "./aboutDescription";
 import PdfIcon from "../../img/file-pdf-solid.svg"
 import CustomButton from '../custom_button/CustomButton';
+import Pdf from "../../assets/Bartek CV_v1_En.pdf"
 
 function AboutMeCard() {
   return (
@@ -16,9 +17,9 @@ function AboutMeCard() {
 	<h6>Wrocław</h6>
 	<p>User interface designer and <br/> front-end developer</p>
     </div>
-	<div className="buttons">
-		<CustomButton  buttonClass={'primary ghost'}>Sen message</CustomButton>
-	</div>
+	<form className="buttons" action="./#contact">
+		<CustomButton  buttonClass={'primary'}>Sen message</CustomButton>
+	</form>
 	<div className="skills">
 		<h6>Skills</h6>
 		<ul>
@@ -34,8 +35,8 @@ function AboutMeCard() {
 	</div>
 	<div className='my-description'><p>{aboutText}</p>
 	<div className='pdf-container' >
-		<p>Dowload my CV</p>
-	<img id="pdf-ico" src={PdfIcon} />
+		<a href={Pdf} >Dowload my CV</a> 
+	<img id="pdf-ico" src={PdfIcon} alt="cv" />
 	</div>
 	
 	</div>

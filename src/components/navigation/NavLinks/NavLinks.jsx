@@ -24,9 +24,9 @@ import './NavLinks.css'
     return (
      
       <ul className='links'  >
-        {menuItems.map((menuItem) => {
+        {menuItems.map((menuItem, idx) => {
           return (
-            <li onClick={() => props.closeMobileMenu && props.closeMobileMenu()} >
+            <li key={idx} onClick={() => props.closeMobileMenu && props.closeMobileMenu()} >
               <a href={menuItem.link}>{menuItem.name}</a>
             </li>
           );

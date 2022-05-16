@@ -10,7 +10,7 @@ function EmailForm() {
     content: "",
   });
 
-  console.log(message);
+ 
 
   const form = useRef();
 

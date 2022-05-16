@@ -2,14 +2,19 @@
   display: flex;
   justify-content: center;
   width: 100vw;
-  background-color: #282d70;
+  background-color: #231e3988;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.75);
+  background-position: bottom left;
+  padding: 40px;
+  background-size: cover;
   justify-content: center;
 }
 .footer-content {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(2, 50%);
-  width: 90%;
+  width: 68%;
   margin: 20px 0;
 }
 
@@ -19,7 +24,7 @@
 
 .footer-left a,
 h2 {
-  color: #989efb;
+  color:white;
 }
 
 .footer-left a {
