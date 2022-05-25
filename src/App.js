@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import { MobileNav } from "./components/navigation/MobileNav/MobileNav";
 import { Navbar } from "./components/navigation/Navbar/Navbar";
 import Home from "./pages/home/Home";
@@ -11,8 +11,8 @@ function App() {
         <MobileNav />
       </div>
       <div className="home">
-        <Home/>
-        </div>
+        <Home />
+      </div>
     </div>
   );
 }

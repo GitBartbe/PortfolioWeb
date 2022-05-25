@@ -4,10 +4,11 @@ import { HiMenuAlt3 } from "react-icons/hi";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { useState } from "react";
 
-import "./MobileNav.css";
+import "./MobileNav.scss";
 
 export const MobileNav = () => {
   const [open, setOpen] = useState(false);
+
   const Close = (
     <HiMenuAlt3
       className="menu-bars"
@@ -24,14 +25,12 @@ export const MobileNav = () => {
     />
   );
 
- const closeMobileMenu = () => {
-     setOpen(false);
- }
-
   return (
-    <div className="mobile-nav">
-      {open && <NavLinks isMobile={true}  closeMobileMenu={closeMobileMenu} />}
-      {open ? Open : Close}
+    <div className="mobile-nav-container">
+      <div className={open ? "mobile-nav" : "mobile-nav mobile-nav-close"}>
+        <NavLinks closeMobileMenu={setOpen} />
+      </div>
+      <div className="mobile-icon-container">{open ? Open : Close}</div>
     </div>
   );
 };
