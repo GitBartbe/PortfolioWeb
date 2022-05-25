@@ -25,7 +25,10 @@
 }
 
 @include mobile {
-  .leaves {
-    display: none;
+  .content-container {
+    background-color: rgb(144, 118, 231) 13.57%;
+    .leaves {
+      display: none;
+    }
   }
 }
