@@ -1,7 +1,8 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
-import "./email-form.css";
 import CustomButton from "../custom_button/CustomButton";
+
+import "./email-form.scss";
 
 function EmailForm() {
   const [message, setMessage] = useState({
@@ -9,8 +10,6 @@ function EmailForm() {
     email: "",
     content: "",
   });
-
- 
 
   const form = useRef();
 
@@ -80,8 +79,13 @@ function EmailForm() {
         value={content}
         required
       />
-      <div> <CustomButton type="submit" value="Send" buttonClass={'primary'}>Send</CustomButton></div>
-     
+      <div>
+        {" "}
+        <CustomButton type="submit" value="Send" buttonClass={"primary"}>
+          Send
+        </CustomButton>
+      </div>
+
       {/* <input className="input-btn" type="submit" value="Send" /> */}
     </form>
   );
