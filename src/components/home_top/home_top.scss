@@ -47,10 +47,23 @@
   }
 
   .top-right {
+    @keyframes img-float {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(20px);
+      }
+      100% {
+        transform: translateY(0px);
+      }
+    }
     z-index: 4;
     width: 35%;
+
     img {
       width: 100%;
+      animation: img-float infinite 3s ease-in-out;
     }
   }
 
