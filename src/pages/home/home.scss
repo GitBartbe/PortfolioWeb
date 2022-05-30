@@ -1,5 +1,5 @@
-@use "../../scss/variables" as *;
-@use "../../scss/breakpoints" as *;
+@use '../../scss/variables' as *;
+@use '../../scss/breakpoints' as *;
 
 .content-container {
   /* background-color: var(--cart-background); */
@@ -15,7 +15,7 @@
   padding: 0 1%;
   .leaves {
     position: absolute;
-    width: 2000px;
+    width: 100%;
     opacity: 0.5;
   }
   h1 {

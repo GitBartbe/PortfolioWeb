@@ -1,5 +1,5 @@
-@use "../../scss/variables" as *;
-@use "../../scss/breakpoints" as *;
+@use '../../scss/variables' as *;
+@use '../../scss/breakpoints' as *;
 
 .footer {
   display: flex;
@@ -38,7 +38,9 @@ h2 {
 }
 
 .logo-container {
+  z-index: 99;
   display: flex;
+
   align-items: center;
 }
 
